@@ -6,7 +6,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 import App from '../react/components/App'
-import 'application.scss'
+import './application.scss'
 
 
 document.addEventListener('turbolinks:load', () => {
