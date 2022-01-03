@@ -18,7 +18,7 @@ const Home = (props) => {
   const usernameFormSubmit = (e) => {
     e.preventDefault();
     console.log('Username form prevent default')
-    const url = 'api/v1/users/create';
+    const url = 'https://rails-react-waldo.herokuapp.com/api/v1/users/create';
     fetch(url, {
       method: 'POST',
       headers: {
